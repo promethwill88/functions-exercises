@@ -26,3 +26,35 @@ function repeatPhraseAlt(phrase, n){
 }
 repeatPhrase("Hello", 5);
 
+//3. Build your own Power function
+function toTheNthPower(number, power){
+    var result = 1;
+    for(var i = 0; i < power; i++){
+        result = result * number;
+    } 
+    return result;
+}
+console.log(toTheNthPower(2, 3));
+
+//4. Area of a circle: pie * r^2
+function areaOfCircle(r){
+	let pie = Math.PI
+	let radiusSquared = r * r;
+	let result = pie * radiusSquared;
+	return result;
+}
+console.log(areaOfCircle(6));
+
+//5. Pythagorean Theorem: a^2 + b^2 = c^2
+function pTheorem(a, b){
+    let aSquared = Math.pow(a, 2);
+    let bSquared = Math.pow(b, 2);
+    let cSquared = aSquared + bSquared;
+    return cSquared;
+}
+console.log(pTheorem(2, 3));
+
+//6. Is X Evenly Divisible by Y?
+
+
+
