@@ -104,6 +104,19 @@ function longestWord (sentence){
 longestWord('Do a barrel roll');
 
 //10. Build an ASCII Triangle
+function printTriangle(number, symbol){
+	for(let i = 0; i < number; i++){
+		console.log(symbol);
+		symbol+=symbol[0];
+	}
+	return symbol;
+}
+printTriangle(5, "*");
+
+//11. Create a heads-or-tails game
+
+//12. Strench Challenge: Alter printTriangle function to create Pyramid
+
 
 
 
